@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #19b162;
+      }
+    </style>
+  </defs>
+  <g id="ok" transform="translate(-287 -80.813)">
+    <path id="Trazado_1868" data-name="Trazado 1868" class="cls-1" d="M0,0H20V20H0Z" transform="translate(307 100.813) rotate(180)"/>
+    <path id="Trazado_1681" data-name="Trazado 1681" class="cls-2" d="M11.482,18.975,7,14.492l1.264-1.264,3.218,3.209,6.8-6.8,1.264,1.273Z" transform="translate(283.725 76.508)"/>
+  </g>
+</svg>

@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { Box, Button } from "../src";
-import { BoxProps } from "./components/Box";
-import { COLORS } from "../src/constants";
+import { Box } from "../src";
+import { BoxProps } from "../types";
+
 
 export default {
     title: "Box",

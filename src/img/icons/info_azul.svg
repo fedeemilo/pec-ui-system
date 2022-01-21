@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1f97ae;
+      }
+    </style>
+  </defs>
+  <g id="info-24px_3_" data-name="info-24px (3)" transform="translate(-20)">
+    <path id="Trazado_1705" data-name="Trazado 1705" class="cls-1" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm1,15H11V11h2Zm0-8H11V7h2Z" transform="translate(18 -2)"/>
+  </g>
+</svg>

@@ -1,5 +1,3 @@
-import "./assets/css/tailwind.css"
-
-
-export { Button } from "./components/Button"
-export { Box } from './components/Box'
+export { Alert } from "./components/Alert";
+export { Button } from "./components/Button";
+export { Box } from "./components/Box";

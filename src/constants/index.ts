@@ -5,7 +5,12 @@ export const COLORS = {
     ming: "#156979",
     gunMetal: "#092D34",
     darkJungleGreen: "#061E22",
-    richBlack: "#030F11"
+    richBlack: "#030F11",
+
+    // Alerts
+    alertDanger: "#b7202e",
+    alertWarning: "#fbae2d",
+    alertSuccess: "#1ab162"
 };
 
 
