@@ -1,11 +1,11 @@
-const path = require("path")
+const path = require("path");
 module.exports = {
     webpackFinal: async config => {
         (config.module.rules = [
             ...config.module.rules,
             {
                 test: /\.(ts|tsx)$/,
-                include: [path.resolve(__dirname, "..")],
+                include: [path.resolve(__dirname, ".")],
                 use: [
                     {
                         loader: require.resolve("babel-loader"),
@@ -17,8 +17,8 @@ module.exports = {
                 ]
             }
         ]),
-            config.resolve.extensions.push(".ts", ".tsx")
-        return config
+            config.resolve.extensions.push(".ts", ".tsx");
+        return config;
     },
-    addons: ['@storybook/addon-backgrounds']
-}
+    addons: ["@storybook/addon-backgrounds"]
+};
