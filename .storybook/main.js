@@ -5,7 +5,7 @@ module.exports = {
             ...config.module.rules,
             {
                 test: /\.(ts|tsx)$/,
-                include: [path.resolve(__dirname, ".")],
+                include: [path.resolve(__dirname, "..")],
                 use: [
                     {
                         loader: require.resolve("babel-loader"),
