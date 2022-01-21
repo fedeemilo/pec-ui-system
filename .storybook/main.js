@@ -17,8 +17,8 @@ module.exports = {
                 ]
             }
         ]),
-            config.resolve.extensions.push(".ts", ".tsx");
-        return config;
+            config.resolve.extensions.push(".ts", ".tsx")
+        return config
     },
-    addons: ["@storybook/addon-backgrounds"]
-};
+    addons: ['@storybook/addon-backgrounds']
+}
