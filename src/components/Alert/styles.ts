@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { AlertContainerProps } from "../../../types";
+import { AlertContainerInterface } from "../../../types";
 
-const AlertContainer = styled("div")<AlertContainerProps>`
+const AlertContainer = styled("div")<AlertContainerInterface>`
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -19,7 +19,7 @@ const AlertContainer = styled("div")<AlertContainerProps>`
     }
 `;
 
-const RedirectIcon = styled.a`
+const LaunchIcon = styled.a`
     text-decoration: none;
     margin-left: auto;
     order: 2;
@@ -31,4 +31,4 @@ const RedirectIcon = styled.a`
     }
 `;
 
-export { AlertContainer, RedirectIcon };
+export { AlertContainer, LaunchIcon };

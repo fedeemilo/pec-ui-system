@@ -1,18 +1,32 @@
 /* Box Types */
 
-export interface BoxProps extends HTMLDivElement {
+export interface BoxInterface extends HTMLDivElement {
     content: any | any[];
     justify?: string;
 }
 
 /* Alert Types */
 
-export interface AlertProps {
+export interface AlertInterface {
     type: string
     label: string;
     launch?: string | null;
+    icon?: string
+}
+export interface AlertContainerInterface {
+    bgColor?: string;
 }
 
-export interface AlertContainerProps {
-    bgColor?: string;
+/* Media Types */
+export interface MediaInterface {
+    src: string;
+    alt?: string;
+    name?: string;
+    width?: string;
+    height?: string;
+    hoverColor?: string;
+    padding?: string;
+    center?: boolean;
+    styleString?: string;
+    margin?: string;
 }

@@ -1,11 +1,16 @@
 import React, { FC } from "react";
-import { AlertProps } from "../../../types";
+import { AlertInterface } from "../../../types";
 import { COLORS } from "../../constants";
-import ICONS from "../../constants/icons";
-import { AlertContainer, RedirectIcon } from "./styles";
+import { ICONS } from "../../constants/icons";
+import { Media } from "../Media";
+import { AlertContainer, LaunchIcon } from "./styles";
 
-export const Alert: FC<AlertProps> = ({ type, label, launch }) => {
-
+export const Alert: FC<AlertInterface> = ({
+    type,
+    label,
+    launch,
+    icon = ICONS.INFO_WHITE
+}) => {
     const colorByType: any = {
         danger: COLORS.alertDanger,
         warning: COLORS.alertWarning,
@@ -14,13 +19,13 @@ export const Alert: FC<AlertProps> = ({ type, label, launch }) => {
 
     return (
         <AlertContainer bgColor={colorByType[type]}>
-            <img src={ICONS.INFO_WHITE} alt="info esta -icon" />
+            <Media name={icon} src={icon} />
             {label}
 
             {launch && (
-                <RedirectIcon {...(launch && { href: launch })}>
-                    <img src={ICONS.ERROR_LAUNCH} alt="launch-icon" />
-                </RedirectIcon>
+                <LaunchIcon {...(launch && { href: launch })}>
+                    <Media name={ICONS.ERROR_LAUNCH} src={ICONS.ERROR_LAUNCH} />
+                </LaunchIcon>
             )}
         </AlertContainer>
     );
