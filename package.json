@@ -6,7 +6,8 @@
     "scripts": {
         "start": "npm run storybook",
         "storybook": "start-storybook -p 8080 .storybook",
-        "lint": "eslint . --ext .ts"
+        "lint": "eslint . --ext .ts",
+        "build-storybook": "npm run build-storybook -c .storybook"
     },
     "devDependencies": {
         "@babel/core": "^7.16.7",

@@ -11,8 +11,10 @@ import verticalOff from "../img/icons/barra_off.svg";
 import flagArg from "../img/icons/badge-ar.svg";
 import searchSideBar from "../img/icons/search_sidebar.svg";
 import errorLaunch from "../img/icons/error_launch.svg";
+import account from "../img/icons/account.svg";
 
 export const ICONS: any = {
+    ACCOUNT: account,
     CHECK: check,
     CHECK_WHITE: checkWhite,
     ERROR_LAUNCH: errorLaunch,

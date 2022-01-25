@@ -30,3 +30,13 @@ export interface MediaInterface {
     styleString?: string;
     margin?: string;
 }
+
+/* Badged Types */
+export interface BadgedInterface {
+    text?: string;
+    color?: string;
+    size?: string;
+    icon?: string;
+    backColor?: string;
+    reverse?: boolean;
+}
